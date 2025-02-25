@@ -6,15 +6,15 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     // Visitor Counter
-    if (localStorage.getItem("visitorCount")) {
-        let count = parseInt(localStorage.getItem("visitorCount"));
-        count++;
-        localStorage.setItem("visitorCount", count);
-        document.getElementById("visitor-count").innerText = count;
-    } else {
-        localStorage.setItem("visitorCount", 1);
-        document.getElementById("visitor-count").innerText = 1;
-    }
+   // if (localStorage.getItem("visitorCount")) {
+      //  let count = parseInt(localStorage.getItem("visitorCount"));
+     //   count++;
+     //   localStorage.setItem("visitorCount", count);
+     //   document.getElementById("visitor-count").innerText = count;
+   // } else {
+    //    localStorage.setItem("visitorCount", 1);
+    //    document.getElementById("visitor-count").innerText = 1;
+  //  }
 
     // Typing Effect
     const textArray = ["Researcher", "Cybersecurity Expert", "Educator"];
