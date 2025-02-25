@@ -89,11 +89,11 @@ footer {
     font-size: 14px;
     text-align: left;
 }
-/* Header Profile Image */
+/* Header Profile Image (Small) */
 .profile-img {
-    width: 80px; /* Adjust size */
+    width: 80px;  /* Small image size */
     height: 80px;
-    border-radius: 50%; /* Makes it circular */
+    border-radius: 50%;  /* Keeps it circular */
     object-fit: cover;
     margin-right: 15px;
 }
@@ -106,7 +106,7 @@ footer {
     text-align: left;
 }
 
-/* Full-width About Section */
+/* Full-Width About Section */
 .about-section {
     display: flex;
     flex-direction: column;
@@ -115,12 +115,12 @@ footer {
     padding: 40px;
 }
 
-/* Large Full-Width Image */
-.about-img {
-    width: 100%; /* Takes full width */
-    max-width: 600px; /* Adjust max size */
+/* Large About Image (ONLY for About Page) */
+.about-full-img {
+    width: 100%; /* Full width for responsiveness */
+    max-width: 600px; /* Prevents it from being too large */
     height: auto;
-    border-radius: 10px; /* Optional: Slightly rounded corners */
+    border-radius: 10px; /* Slightly rounded corners */
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
     margin-bottom: 20px;
 }
