@@ -131,4 +131,6 @@ footer {
     line-height: 1.6;
 }
 
-
+p {
+    min-height: 30px; /* Adjust based on font size */
+}
