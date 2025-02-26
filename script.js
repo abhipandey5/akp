@@ -8,16 +8,16 @@ document.addEventListener("DOMContentLoaded", function () {
     // Visitor Counter
    // if (localStorage.getItem("visitorCount")) {
       //  let count = parseInt(localStorage.getItem("visitorCount"));
-     //   count++;
-     //   localStorage.setItem("visitorCount", count);
-     //   document.getElementById("visitor-count").innerText = count;
-   // } else {
-    //    localStorage.setItem("visitorCount", 1);
-    //    document.getElementById("visitor-count").innerText = 1;
-  //  }
+      //  count++;
+       // localStorage.setItem("visitorCount", count);
+      //  document.getElementById("visitor-count").innerText = count;
+    //} else {
+     //   localStorage.setItem("visitorCount", 1);
+     //   document.getElementById("visitor-count").innerText = 1;
+   // }
 
     // Typing Effect
-    const textArray = ["Researcher", "Cybersecurity Expert", "Educator"];
+    const textArray = ["Researcher", "Cybersecurity Expert", "Learner"];
     let textIndex = 0;
     let charIndex = 0;
     const typingText = document.getElementById("typing-text");
@@ -44,5 +44,9 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     typeText();
+});
+
+document.querySelector(".menu-toggle").addEventListener("click", function () {
+    document.querySelector(".nav-links").classList.toggle("active");
 });
 

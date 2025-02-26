@@ -84,7 +84,7 @@ footer {
     width: auto;
     background: none; /* No background */
     color: black; /* Adjust text color as needed */
-    padding: 10px 20px;
+    padding: 10px 50px;
     font-size: 14px;
     text-align: left;
 }
@@ -134,3 +134,36 @@ footer {
 p {
     min-height: 30px; /* Adjust based on font size */
 }
+
+        /* 🔹 Additional Custom Styles */
+
+        /* Header Styling */
+        header {
+            text-align: center;
+            padding: 50px 20px;
+            background: linear-gradient(to right, #004080, #002b5e);
+            color: white;
+        }
+
+        /* Profile Image */
+        .profile-img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        /* Visitor Counter */
+        #visitor-counter {
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+            background: rgba(0, 0, 0, 0.7);
+            color: white;
+            padding: 10px 15px;
+            border-radius: 8px;
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        
