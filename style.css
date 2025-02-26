@@ -79,7 +79,6 @@ blockquote {
     }
 }
 footer {
-    position: fixed;
     bottom: 0;
     left: 0;
     width: auto;
